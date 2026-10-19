@@ -1,6 +1,4 @@
-from pathlib import Path
-
-content = r'''[🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md)
+[🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md)
 
 # نقشه راه یادگیری هوش مصنوعی عامل‌محور (Agentic AI)
 
@@ -399,7 +397,3 @@ MCP پروتکلی برای متصل کردن برنامه‌های هوش مص�
 ## پیشنهاد برای ادامه مسیر
 
 بهتر است ابتدا یک عامل ساده با پایتون، OpenRouter، چند ابزار مشخص و یک حلقه اجرای کنترل‌شده بسازید. پس از درک کامل منطق آن، می‌توانید حافظه، RAG، LangGraph و MCP را به‌تدریج اضافه کنید.
-'''
-path = Path("/mnt/data/README.fa.md")
-path.write_text(content, encoding="utf-8")
-print(f"Created: {path}\nSize: {path.stat().st_size} bytes")
