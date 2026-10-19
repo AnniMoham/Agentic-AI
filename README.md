@@ -1,3 +1,7 @@
+from pathlib import Path
+
+content = r'''[🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md)
+
 # Agentic AI Learning Roadmap
 
 ## From Chatbot to AI Agent
