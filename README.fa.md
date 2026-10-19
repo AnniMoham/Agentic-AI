@@ -1,6 +1,6 @@
 from pathlib import Path
 
-content = r'''[🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md)
+content = [🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md)
 
 # نقشه راه یادگیری هوش مصنوعی عامل‌محور (Agentic AI)
 
