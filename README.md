@@ -1,6 +1,5 @@
-from pathlib import Path
+[🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md) 
 
-content = [🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md)
 
 # Agentic AI Learning Roadmap
 
