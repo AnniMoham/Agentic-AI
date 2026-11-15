@@ -37,8 +37,6 @@ This evolution moves DevOps from rule-based automation toward **intelligent, ada
 
 The goal is not to eliminate DevOps engineers, but to reduce repetitive operational work and help engineering teams respond to incidents faster and more intelligently.
 
----
-
 ## 2. Core Characteristics of a DevOps AI Agent
 
 A DevOps AI Agent needs more than an LLM connected to a few tools.
