@@ -1,5 +1,5 @@
 
-## A Real-World Architecture: Kubernetes Incident Response Agent
+## A Real-World Architecture: Kubernetes Incident Management Agent
 
 Let's consider a practical DevOps scenario.
 
