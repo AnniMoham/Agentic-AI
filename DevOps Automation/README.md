@@ -1,6 +1,6 @@
 [🇬🇧 English](README.md) | [🇮🇷 فارسی](README.fa.md) 
 
-# 🤖 DevOps Automation by Agentic
+# 🤖 DevOps Automation by AI Agents
 ### Building Intelligent, Autonomous, and Reliable DevOps Workflows with AI Agents
 
 ## 1. Why AI Agents in DevOps?
