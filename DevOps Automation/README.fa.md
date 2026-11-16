@@ -2,7 +2,7 @@
 
 
 # 🤖 اتوماسیون DevOps با استفاده از Agent ها
-#### ساخت 'گردش کارهای هوشمند، خودکار و قابل اعتماد با استفاده از Agent ها
+#### ساخت 'گردش کارهای هوشمند، خودکار و قابل اعتماد با استفاده از AI Agent ها
 
 ## ۱. چرا ایجنت‌های هوش مصنوعی در DevOps اهمیت دارند؟
 
@@ -447,17 +447,8 @@ GitHub: https://github.com/AgentOps-AI/agentops
 این معماری یک الگوی مفهومی است و لزوماً نیازی به استفاده از تمام این ابزارها در یک پروژه وجود ندارد.
 
 هدف نهایی، ساخت سیستمی است که نه‌تنها هوشمند باشد، بلکه قابل کنترل، قابل اعتماد، امن و قابل نگهداری نیز باشد.
+:
 
-# 8. منابع رسمی
-
-برای مطالعه بیشتر و شروع پیاده‌سازی، می‌توانید از منابع زیر استفاده کنید:
-
-| ابزار | مخزن GitHub |
-|---|---|
-| LangGraph | https://github.com/langchain-ai/langgraph |
-| CrewAI | https://github.com/crewAIInc/crewAI |
-| Agno | https://github.com/agno-agi/agno |
-| AutoGen | https://github.com/microsoft/autogen |
 | AG2 | https://github.com/ag2ai/ag2 |
 | Pydantic AI | https://github.com/pydantic/pydantic-ai |
 | OpenAI Agents SDK | https://github.com/openai/openai-agents-python |
