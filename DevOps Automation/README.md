@@ -699,30 +699,5 @@ The real challenge is not simply building an autonomous agent.
 
 It is engineering an intelligent operational system that is **reliable, secure, observable, and capable of acting within well-defined boundaries.**
 
----
 
-## 8. Official Resources
 
-### Agent Frameworks and Tools
-
-| Framework | GitHub | Documentation |
-|---|---|---|
-| LangGraph | [GitHub](https://github.com/langchain-ai/langgraph) | [Docs](https://docs.langchain.com/oss/python/langgraph/) |
-| CrewAI | [GitHub](https://github.com/crewAIInc/crewAI) | [Docs](https://docs.crewai.com/) |
-| Agno | [GitHub](https://github.com/agno-agi/agno) | [Docs](https://docs.agno.com/) |
-| AG2 | [GitHub](https://github.com/ag2ai/ag2) | [Docs](https://docs.ag2.ai/) |
-| Pydantic AI | [GitHub](https://github.com/pydantic/pydantic-ai) | [Docs](https://ai.pydantic.dev/) |
-| OpenAI Agents SDK | [GitHub](https://github.com/openai/openai-agents-python) | [Docs](https://openai.github.io/openai-agents-python/) |
-| AgentOps | [GitHub](https://github.com/AgentOps-AI/agentops) | [Docs](https://docs.agentops.ai/) |
-
-### Related Technologies
-
-- Kubernetes: [https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
-- Docker: [https://github.com/docker](https://github.com/docker)
-- Model Context Protocol (MCP): [https://github.com/modelcontextprotocol](https://github.com/modelcontextprotocol)
-- Prometheus: [https://github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)
-- Grafana: [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
-
----
-
-*This section is part of an ongoing exploration of Agentic AI, intelligent automation, and practical AI engineering. More architectural comparisons, code examples, and hands-on implementations will be added over time.*
