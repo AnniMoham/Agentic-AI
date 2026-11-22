@@ -41,7 +41,7 @@ The main difference:
 -   Chatbot: Answers questions
 -   Agent: Completes tasks
 
-------------------------------------------------------------------------
+
 
 # How an AI Agent Works
 
@@ -62,7 +62,7 @@ Example:
 
 The Agent identifies what needs to be done.
 
-------------------------------------------------------------------------
+
 
 ## 2. Reasoning
 
@@ -83,7 +83,7 @@ Example:
     3. Make a reservation
     4. Send confirmation
 
-------------------------------------------------------------------------
+
 
 ## 3. Action (Tool Calling)
 
@@ -114,7 +114,7 @@ Example:
 
 The Agent does not only generate text; it can perform actions.
 
-------------------------------------------------------------------------
+
 
 ## 4. Evaluation
 
@@ -133,7 +133,7 @@ The Agent can decide:
 
 This creates an iterative loop.
 
-------------------------------------------------------------------------
+
 
 # Important Concept
 
@@ -163,6 +163,48 @@ It becomes an Agent when we add:
 -   Memory
 -   Execution loop
 
+
+
+# Agent Development Roadmap
+
+## Step 1 - Python Basics
+
+Required skills:
+
+-   Variables
+-   Functions
+-   Classes
+-   Modules
+-   Error handling
+-   Working with APIs
+
+
+
+## Step 2 - Environment Management
+
+Learn:
+
+-   `.env` files
+-   API Keys
+-   Environment variables
+-   requirements.txt
+
+Example:
+
+    .env
+
+    OPENROUTER_API_KEY=your_key
+
+
+
+## Step 3 - Connect to LLMs
+
+Learn:
+
+-   OpenAI SDK
+-   OpenRouter
+-   Different LLM providers
+
 Architecture:
 
     Python Application
@@ -175,6 +217,115 @@ Architecture:
             |
             |
            LLM
+
+
+
+## Step 4 - Prompt Engineering
+
+Learn:
+
+-   System prompts
+-   Role definition
+-   Instructions
+-   Few-shot examples
+
+
+
+## Step 5 - Tool Calling
+
+The most important transition:
+
+From:
+
+    Question → Answer
+
+To:
+
+    Goal
+     ↓
+    Reasoning
+     ↓
+    Choose Tool
+     ↓
+    Execute Tool
+     ↓
+    Analyze Result
+     ↓
+    Continue
+
+
+
+## Step 6 - Build Simple Agents
+
+Examples:
+
+-   Research Agent
+-   Data Analysis Agent
+-   File Assistant Agent
+-   Web Search Agent
+
+
+
+## Step 7 - Memory
+
+Add the ability to remember:
+
+-   Previous conversations
+-   User preferences
+-   Project information
+
+Technologies:
+
+-   Vector databases
+-   Embeddings
+-   RAG
+
+
+
+## Step 8 - LangGraph
+
+Learn:
+
+-   Agent workflows
+-   State management
+-   Complex decision graphs
+-   Multi-step execution
+
+
+
+## Step 9 - MCP (Model Context Protocol)
+
+MCP allows Agents to connect with external tools and data sources.
+
+Examples:
+
+-   Files
+-   Databases
+-   APIs
+-   Applications
+
+
+
+## Step 10 - Multi-Agent Systems
+
+Advanced stage:
+
+Multiple specialized agents collaborate.
+
+Example:
+
+    Research Agent
+            |
+            ↓
+    Writer Agent
+            |
+            ↓
+    Reviewer Agent
+            |
+            ↓
+    Final Output
+
+
 
 # Final Architecture of an AI Agent
 
@@ -195,20 +346,7 @@ Architecture:
             |
             ↓
         Evaluation Loop
-------------------------------------------------------------------------
 
-# Agent Development Roadmap
-
-## Step 1 - Python Basics
-
-Required skills:
-
--   Variables
--   Functions
--   Classes
--   Modules
--   Error handling
--   Working with APIs
 
 
 # Goal of This Repository
